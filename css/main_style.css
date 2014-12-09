@@ -225,24 +225,25 @@ margin-left: 25px;
 position:relative;
 height:100%;
 width: 70%;
-background-color:;
+background-color:yellow;
 overflow: hidden;
 margin:0 auto;
 
 }
 
 }
-/*.content .level{
+.levels{
 position:relative;
-background-color:;
-width:76%;
-}*/
+float:left;
+background-color:red;
+width:70%;
+}
 
 #one{
-position:absolute;
 
-width:47%;
+width:45%;
 height:49%;
+display:inline-block;
 background-color: rgb(241,221,114);
 float:left;
 margin-left: 25px;
@@ -262,7 +263,7 @@ border-radius: 3px;
 
 #two{
 
-Width:47%;
+Width:45%;
 height:49%;
 display:inline-block;
 background-color: rgb(148,170,40);
@@ -283,10 +284,10 @@ border-radius: 3px;
 }
 #three{
 
-Width:47%;
+Width:45%;
 height:49%;
-display:inline-block;
-background-color: rgb(160,143,107);
+clear:right;
+background-color:rgb(160,143,107);
 float: left;
 margin-left: 25px;
 margin-top: 15px;
@@ -304,8 +305,9 @@ border-radius: 3px;
 }
 #four{
 
-Width:47%;
+Width:45%;
 height:49%;
+display:inline-block;
 clear:right;
 background-color: rgb(216,143,107);
 float: right;
