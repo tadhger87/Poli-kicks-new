@@ -1,0 +1,19 @@
+#header {
+    font-family:verdana;
+	font-style:italic;
+    color:800000;
+    padding:5px;
+	margin:-1px;
+	position:absolute;
+	left:100px;
+	top:0%;
+}
+a{text-decoration: none;}
+.mover{position:absolute; left:500px; top:130px; background-color:#FFFACD;padding:50px;}
+.mover2{position:absolute; top:130px; padding:50px;}
+
+.line{position:absolute;top:110px; width:100%;}
+p.move {position:absolute; bottom:30px;left:35%;}
+body {background-color:#FFFACD;}
+#login{position:absolute; right:35px; top:80px;}
+.mover3{float:right;}
