@@ -1,0 +1,40 @@
+body{
+padding-top: 2%;
+width: 80%;
+margin: auto;
+}
+
+.content{
+background-color: grey;
+padding: 1em;
+margin-bottom: 2%;
+}
+
+.question{
+text-align: left;
+font-family: monaco;
+font-size: 2em;
+max-width: 80%;
+background-color: #B1A6BB;
+position: relative;
+margin: auto;
+}
+
+.answers{
+width: 35%;
+background-color: blue;
+padding: 1em;
+font-family: monaco;
+font-size: 2em;
+margin: auto;
+
+}
+
+#submit{
+font-size: 2em;
+position: relative;
+margin: auto;
+background-color: #DFC875;
+max-width: 10%;
+
+}
