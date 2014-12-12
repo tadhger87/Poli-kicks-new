@@ -30,11 +30,14 @@ margin: auto;
 
 }
 
-#submit{
+#qNav{
 font-size: 2em;
 position: relative;
 margin: auto;
-background-color: #DFC875;
-max-width: 10%;
-
+background-color: ;
+width: 20%;
+}
+.btn{
+margin: auto;
+position: relative;
 }

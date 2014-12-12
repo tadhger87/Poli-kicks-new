@@ -6,10 +6,24 @@
 
 </style>
 <title>Level 1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link href = "css/bootstrap.min.css" rel = "stylesheet">
 <link rel="stylesheet" type="text/css" href="css/main_style.css"/>
 <link rel="stylesheet" type="text/css" href="css/main_style1.css"/>
 <script type="text/javascript" src = "js/javaPoli.js"></script>
+<script type="text/javascript">
+var thank = "Thank you for filling in our questionaire!";
+var error = "Please answer to all questions on this page before you submitt"
+function messages(){
+var buttonClick=confirm("After you click OK your answers will be submitted. If you please CANCEL you will be returned to the questionaire.");
+if (buttonClick==true){
+  document.write("Your answers has been submitted. Thank you!");
+ }
+else{
+  document.write("You pressed Cancel!");
+  }
+}
+</script>
 
 </head>
 
@@ -71,46 +85,47 @@
 	<form>		
 		<p class="question">If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.</p>
 		<div class="answers">
-			<input type="radio" name="answer" value="Strongly Disagree">Strongly Disagree</br>
-			<input type="radio" name="answer" value="Disagree">Disagree</br>
-			<input type="radio" name="answer" value="Agree">Agree</br>
-			<input type="radio" name="answer" value="Strongly Agree">Strongly Agree</br>
+			<input type="radio" name="answer1" value="Strongly Disagree">Strongly Disagree</br>
+			<input type="radio" name="answer1" value="Disagree">Disagree</br>
+			<input type="radio" name="answer1" value="Agree">Agree</br>
+			<input type="radio" name="answer1" value="Strongly Agree">Strongly Agree</br>
 		</div>
 		
 		<p class="question">I'd always support my country, whether it was right or wrong.</p>
 		<div class="answers">
-			<input type="radio" name="answer" value="Strongly Disagree">Strongly Disagree</br>
-			<input type="radio" name="answer" value="Disagree">Disagree</br>
-			<input type="radio" name="answer" value="Agree">Agree</br>
-			<input type="radio" name="answer" value="Strongly Agree">Strongly Agree</br>
+			<input type="radio" name="answer2" value="Strongly Disagree">Strongly Disagree</br>
+			<input type="radio" name="answer2" value="Disagree">Disagree</br>
+			<input type="radio" name="answer2" value="Agree">Agree</br>
+			<input type="radio" name="answer2" value="Strongly Agree">Strongly Agree</br>
 		</div>
 		
 		<p class="question">No one chooses his or her country of birth, so it's foolish to be proud of it.</p>
 		<div class="answers">
-			<input type="radio" name="answer" value="Strongly Disagree">Strongly Disagree</br>
-			<input type="radio" name="answer" value="Disagree">Disagree</br>
-			<input type="radio" name="answer" value="Agree">Agree</br>
-			<input type="radio" name="answer" value="Strongly Agree">Strongly Agree</br>
+			<input type="radio" name="answer3" value="Strongly Disagree">Strongly Disagree</br>
+			<input type="radio" name="answer3" value="Disagree">Disagree</br>
+			<input type="radio" name="answer3" value="Agree">Agree</br>
+			<input type="radio" name="answer3" value="Strongly Agree">Strongly Agree</br>
 		</div>
 		
 		<p class="question">Our race has many superior qualities, compared with other races.</p>
 		<div class="answers">
-			<input type="radio" name="answer" value="Strongly Disagree">Strongly Disagree</br>
-			<input type="radio" name="answer" value="Disagree">Disagree</br>
-			<input type="radio" name="answer" value="Agree">Agree</br>
-			<input type="radio" name="answer" value="Strongly Agree">Strongly Agree</br>
+			<input type="radio" name="answer4" value="Strongly Disagree">Strongly Disagree</br>
+			<input type="radio" name="answer4" value="Disagree">Disagree</br>
+			<input type="radio" name="answer4" value="Agree">Agree</br>
+			<input type="radio" name="answer4" value="Strongly Agree">Strongly Agree</br>
 		</div>
 		
 		<p class="question">The enemy of my enemy is my friend.</p>
 		<div class="answers">
-			<input type="radio" name="answer" value="Strongly Disagree">Strongly Disagree</br>
-			<input type="radio" name="answer" value="Disagree">Disagree</br>
-			<input type="radio" name="answer" value="Agree">Agree</br>
-			<input type="radio" name="answer" value="Strongly Agree">Strongly Agree</br>
+			<input type="radio" name="answer5" value="Strongly Disagree">Strongly Disagree</br>
+			<input type="radio" name="answer5" value="Disagree">Disagree</br>
+			<input type="radio" name="answer5" value="Agree">Agree</br>
+			<input type="radio" name="answer5" value="Strongly Agree">Strongly Agree</br>
 		</div>
 		</br>
-		<div id="submit">
-			<input type="submit" value="Submit">
+		<div id="qNav">
+			<input class="btn" onclick="messages()" type="button" value="done">
+			<input class="btn" onclick="return()" type="button" value="return">
 		</div>
 	</form>
 		
