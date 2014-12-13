@@ -11,9 +11,10 @@
 <link rel="stylesheet" type="text/css" href="css/main_style.css"/>
 <link rel="stylesheet" type="text/css" href="css/main_style1.css"/>
 <script type="text/javascript" src = "js/javaPoli.js"></script>
-<script type="text/javascript">
-var thank = "Thank you for filling in our questionaire!";
-var error = "Please answer to all questions on this page before you submitt"
+<script type="text/javascript" src = "js/Level1.js"></script>
+<!--var thank = "Thank you for filling in our questionaire!";
+var error = "Please answer to all questions on this page before you submitt"-->
+<script>
 function messages(){
 var buttonClick=confirm("After you click OK your answers will be submitted. If you please CANCEL you will be returned to the questionaire.");
 if (buttonClick==true){
@@ -22,6 +23,7 @@ if (buttonClick==true){
 else{
   document.write("You pressed Cancel!");
   }
+
 }
 </script>
 
@@ -82,7 +84,7 @@ else{
 </div>
 
 <div class ="content">
-	<form>		
+	<form id="form1">		
 		<p class="question">If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.</p>
 		<div class="answers">
 			<input type="radio" name="answer1" value="Strongly Disagree">Strongly Disagree</br>
@@ -122,14 +124,65 @@ else{
 			<input type="radio" name="answer5" value="Agree">Agree</br>
 			<input type="radio" name="answer5" value="Strongly Agree">Strongly Agree</br>
 		</div>
-		</br>
+		</form>
+		
+	<form id="form2">		
+		<p class="question">Military action that defies international law is sometimes justified.</p>
+		<div class="answers">
+			<input type="radio" name="answer1" value="Strongly Disagree">Strongly Disagree</br>
+			<input type="radio" name="answer1" value="Disagree">Disagree</br>
+			<input type="radio" name="answer1" value="Agree">Agree</br>
+			<input type="radio" name="answer1" value="Strongly Agree">Strongly Agree</br>
+		</div>
+		
+		<p class="question">There is now a worrying fusion of information and entertainment.</p>
+		<div class="answers">
+			<input type="radio" name="answer2" value="Strongly Disagree">Strongly Disagree</br>
+			<input type="radio" name="answer2" value="Disagree">Disagree</br>
+			<input type="radio" name="answer2" value="Agree">Agree</br>
+			<input type="radio" name="answer2" value="Strongly Agree">Strongly Agree</br>
+		</div>
+		
+		<p class="question">People are ultimately divided more by class than by nationality.</p>
+		<div class="answers">
+			<input type="radio" name="answer3" value="Strongly Disagree">Strongly Disagree</br>
+			<input type="radio" name="answer3" value="Disagree">Disagree</br>
+			<input type="radio" name="answer3" value="Agree">Agree</br>
+			<input type="radio" name="answer3" value="Strongly Agree">Strongly Agree</br>
+		</div>
+		
+		<p class="question">Controlling inflation is more important than controlling unemployment.</p>
+		<div class="answers">
+			<input type="radio" name="answer4" value="Strongly Disagree">Strongly Disagree</br>
+			<input type="radio" name="answer4" value="Disagree">Disagree</br>
+			<input type="radio" name="answer4" value="Agree">Agree</br>
+			<input type="radio" name="answer4" value="Strongly Agree">Strongly Agree</br>
+		</div>
+		
+		<p class="question">Because corporations cannot be trusted to voluntarily protect the environment, they require regulation.</p>
+		<div class="answers">
+			<input type="radio" name="answer5" value="Strongly Disagree">Strongly Disagree</br>
+			<input type="radio" name="answer5" value="Disagree">Disagree</br>
+			<input type="radio" name="answer5" value="Agree">Agree</br>
+			<input type="radio" name="answer5" value="Strongly Agree">Strongly Agree</br>
+		</div>
+		
+		<p id="singleQuestion">paragraph to have one question at a time printed</p>
+	</form>
+	
 		<div id="qNav">
 			<input class="btn" onclick="messages()" type="button" value="done">
-			<input class="btn" onclick="return()" type="button" value="return">
+			<input class="btn" onclick="dispQuest()" type="button" value="return">
+			<!--<button></button>
+		<form action="http://google.com">
+			<input class="btn" type="button" value="return1">
+			<button onclick="window.location.href='http://google.com'">return2</button>
+		</form>
+		</form> -->
 		</div>
-	</form>
 		
-</div>
+		
+		</div>
 </body>
 
 </html>
