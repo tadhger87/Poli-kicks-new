@@ -38,7 +38,7 @@ ul{
 float: right;
 font-size: 18px;
 margin-right: 10px;
-font-family:monaco;
+font-family:arial;
 list-style-type: none;
 padding: 5px;
 text-align: center;
@@ -134,7 +134,7 @@ h2{
 margin-left:auto;
 margin-top: 5px;
 margin-left:auto;
-font-family:monaco;
+font-family:arial;
 font-size:15px;
 color: rgb(160,143,107);
 }
@@ -181,6 +181,7 @@ clear:both;
 }
 #social{
 clear: both;
+
 }
 
 .pic-left{
@@ -207,14 +208,14 @@ h3{
 
 font-size: 300%;
 text-align:center;
-font-family:Letter Gothic Std;
+font-family:arial;
 color: black;
 text-align:center;
 }
 
 p{
 font-size: 16px;
-font-family:monaco;
+font-family:arial;
 color: black;
 text-align:center;
 margin-left: 25px;
@@ -225,7 +226,7 @@ margin-left: 25px;
 position:relative;
 height:100%;
 width: 70%;
-background-color:yellow;
+background-color:;
 overflow: hidden;
 margin:0 auto;
 
@@ -347,7 +348,7 @@ border-radius: 3px;
     border-radius:5px;
      -moz-border-radius:5px;
      -webkit-border-radius:5px;
-    background-color:#237eee;
+    background-color:;
     margin:2% 0;
 }
 
@@ -363,7 +364,7 @@ padding: 5px;
 border: 0;
 box-shadow: 0;
 display: inline;
-background-color:green;
+background-color:;
 margin:0 auto;
 
 
@@ -376,7 +377,7 @@ width:100%;
 float:left;
 height:100%;
 margin:0 auto;
-background-color:cyan;
+background-color:;
 left:100px;
 
 
@@ -400,7 +401,7 @@ top:10px;
 left:100px;
 clear:left;
 
-background-color:grey;
+background-color:;
 }
 .video .share{
 position:absolute;
@@ -418,7 +419,7 @@ top:50px;
 margin-left:auto;
 margin-right:auto;
 overflow:hidden;
-background-color:pink;
+background-color:;
 
 .share{
 
@@ -436,7 +437,7 @@ background-color:pink;
 
 
 
-#about{
+.about{
 position:relative;
 top:30px;
 height: 550px;
@@ -448,11 +449,11 @@ overflow:hidden;
 background-color:pink;
 }
 
-#infoboxAbout {
+.infoboxAbout {
 position:absolute;
-Width:90%;
+Width:60%;
 height:90%;
-background-color: blue/*rgb(241,221,114)*/;
+background-color: rgb(241,221,114);
 float:left;
 margin-left: 5%;
 margin-top: 2.5%;
