@@ -353,30 +353,41 @@ border-radius: 3px;
 
 /*LEVEL 2*/
 
-#share-buttons img {
+ #share-buttons img{
 position:relative;
-float:left;
+
+bottom:10px;
+left:249px;
 width: 50px;
 padding: 5px;
 border: 0;
 box-shadow: 0;
 display: inline;
-background-color:;
+background-color:green;
 margin:0 auto;
-left:100px;
+
 
 
 } 
 
-.video{
+.container .video{
 position:relative;
 width:100%;
 float:left;
 height:100%;
 margin:0 auto;
-background-color:;
+background-color:cyan;
 left:100px;
 
+
+}
+
+.video .like{
+position:absolute;
+left:0px;
+
+bottom:-25px;
+display:inline;
 
 }
 
@@ -385,11 +396,18 @@ position:relative;
 width:100%;
 float:left;
 height:500px;
-top:50px;
-left:115px;
+top:10px;
+left:100px;
 clear:left;
 
-background-color:;
+background-color:grey;
+}
+.video .share{
+position:absolute;
+left:90px;
+clear:left;
+bottom:25px;
+display:inline;
 }
 
 .container{
@@ -400,11 +418,16 @@ top:50px;
 margin-left:auto;
 margin-right:auto;
 overflow:hidden;
-background-color:;
+background-color:pink;
 
 .share{
 
 }
+
+
+
+
+
 
 
 /*ABOUT*/
