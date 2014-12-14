@@ -6,6 +6,12 @@ function dispQuest(){
 		//for(i = 0; i<questionArray.length; i++){
 		i = 0;
 		document.getElementById("singleQuestion").innerHTML=questionArray[i];
+		
+		
+	
+			i = i + 1;
+		
+		
 		//i++;
 			//var disp = questionArray[0];
 			}

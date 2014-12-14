@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+
+<head>
+<style>
+</style>
+<title>Level 1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href = "css/bootstrap.min.css" rel = "stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main_style.css"/>
+<link rel="stylesheet" type="text/css" href="css/main_style1.css"/>
+<script type="text/javascript" src = "js/javaPoli.js"></script>
+<script type="text/javascript" src = "js/Level1.js"></script>
+<!--var thank = "Thank you for filling in our questionaire!";
+var error = "Please answer to all questions on this page before you submitt"-->
+<script>
+function messages(){
+var buttonClick=confirm("After you click OK your answers will be submitted. If you please CANCEL you will be returned to the questionaire.");
+if (buttonClick==true){
+ href="Level1.html"
+ }
+else{
+  document.write("You pressed Cancel!");
+  }
+
+}
+</script>
+
+</head>
+
+<body>
+
+<div class ="header">
+
+	<div class ="image">
+	        
+		<a href ="index poli-kicks.html"><image src="images/logo5.png" height= "175px"/></a>
+	      
+	</div>
+
+	<div id ="quote">
+	   
+		<marquee behavior="scroll" direction="left" scrollamount="3">
+		<h2>"In a democracy the poor will have more power than the rich, 
+			because there are more of them, and the will of the majority is supreme."
+		<br>
+			
+			- Aristotle</h2>
+			
+		</marquee>
+		<br>
+		<hr id= line> 
+			
+	</div>
+</div> 
+
+<div class ="right-col">
+	<form>			
+		<ul>
+			<div id = "buttonOne"><li><a href="Login">Login</li> </div>
+			<div id = "buttonTwo"><li><a href="learn.html">Learn</li> </div>
+			<div id = "buttonThree"><li><a href="help.html">Help</li> </div>
+			<div id = "buttonFour"><li><a href="about.html">About</li></div>
+		</ul>				
+	</form>
+	
+	<div class ="container1">
+		<div id ="social">
+			<a href = "https://www.facebook.com"><image src="images/facebook.png"height= "50px"/></a>
+			<a href = "https://twitter.com/?lang=en"><image src="images/twitter.png" height= "50px"/></a>
+			<a href = "https://ie.linkedin.com/"><image src="images/linkedin.png" height= "50px"/></a>
+			<a href = "https://plus.google.com/"><image src="images/googleplus.png" height= "50px"/></a>
+			<a href = "https://www.youtube.com/"><image src="images/youtube.png" height= "50px"/></a>
+		</div>
+		<br>			
+		<hr id= line> 
+		<br>
+		<br>
+		<a class="twitter-timeline" href="https://twitter.com/StoryMapDublin/favorites" data-widget-id="524942263172857857">Favorite Tweets by @StoryMapDublin</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	
+
+	</div>	
+</div>
+
+<div class ="content">
+<p><b>Answer our questionnaires and build up your political profile. The more questions you answer
+	the more we can understand your political learnings and why may you reach a political decision </p>
+	<div id="buttons">	
+		<button class = "btn" onclick="messages()">Take the survey</button>
+	</div>
+</div>

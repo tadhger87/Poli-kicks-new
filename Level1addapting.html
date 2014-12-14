@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+
+<head>
+<style>
+<!--HI-->
+</style>
+<title>Level 1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href = "css/bootstrap.min.css" rel = "stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main_style.css"/>
+<link rel="stylesheet" type="text/css" href="css/main_style1.css"/><script type="text/javascript" src = "js/javaPoli.js"></script>
+<script type="text/javascript" src = "js/Level1adapting.js"></script>
+<!--var thank = "Thank you for filling in our questionaire!";
+var error = "Please answer to all questions on this page before you submitt"-->
+<script>
+function messages(){
+var buttonClick=confirm("After you click OK your answers will be submitted. If you please CANCEL you will be returned to the questionaire.");
+if (buttonClick==true){
+  document.write("Your answers has been submitted. Thank you!");
+ }
+else{
+  document.write("You pressed Cancel!");
+  }
+
+}
+</script>
+
+</head>
+
+<body>
+
+<div class ="header">
+
+	<div class ="image">
+	        
+		<a href ="index poli-kicks.html"><image src="images/logo5.png" height= "175px"/></a>
+	      
+	</div>
+
+	<div id ="quote">
+	   
+		<marquee behavior="scroll" direction="left" scrollamount="3">
+		<h2>"In a democracy the poor will have more power than the rich, 
+			because there are more of them, and the will of the majority is supreme."
+		<br>
+			
+			- Aristotle</h2>
+			
+		</marquee>
+		<br>
+		<hr id= line> 
+			
+	</div>
+</div> 
+
+<div class ="right-col">
+	<form>			
+		<ul>
+			<div id = "buttonOne"><li><a href="Login">Login</li> </div>
+			<div id = "buttonTwo"><li><a href="learn.html">Learn</li> </div>
+			<div id = "buttonThree"><li><a href="help.html">Help</li> </div>
+			<div id = "buttonFour"><li><a href="about.html">About</li></div>
+		</ul>				
+	</form>
+	
+	<div class ="container1">
+		<div id ="social">
+			<a href = "https://www.facebook.com"><image src="images/facebook.png"height= "50px"/></a>
+			<a href = "https://twitter.com/?lang=en"><image src="images/twitter.png" height= "50px"/></a>
+			<a href = "https://ie.linkedin.com/"><image src="images/linkedin.png" height= "50px"/></a>
+			<a href = "https://plus.google.com/"><image src="images/googleplus.png" height= "50px"/></a>
+			<a href = "https://www.youtube.com/"><image src="images/youtube.png" height= "50px"/></a>
+		</div>
+		<br>			
+		<hr id= line> 
+		<br>
+		<br>
+		<a class="twitter-timeline" href="https://twitter.com/StoryMapDublin/favorites" data-widget-id="524942263172857857">Favorite Tweets by @StoryMapDublin</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	
+
+	</div>	
+</div>
+
+<div class ="content">
+	<div class="questions">
+		<p>If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.</p>
+		<form class="options">
+			<input class="option" type="radio" name="question1" value=4>Strongly Disagree</br>
+			<input class="option" type="radio" name="question1" value=3>Disagree</br>
+			<input class="option" type="radio" name="question1" value=2>Agree</br>
+			<input class="option" type="radio" name="question1" value=1>Strongly Agree</br>
+		</form>
+	</div>
+	<div class="questions">	
+		<p>I'd always support my country, whether it was right or wrong.</p>
+		<form class="options">
+			<input class="option" type="radio" name="question2" value=4>Strongly Disagree</br>
+			<input class="option" type="radio" name="question2" value=3>Disagree</br>
+			<input class="option" type="radio" name="question2" value=2>Agree</br>
+			<input class="option" type="radio" name="question2" value=1>Strongly Agree</br>
+		</form>
+	</div>
+	<div class="questions">	
+		<p>No one chooses his or her country of birth, so it's foolish to be proud of it.</p>
+		<form class="options">
+			<input class="option" type="radio" name="question3" value=4>Strongly Disagree</br>
+			<input class="option" type="radio" name="question3" value=3>Disagree</br>
+			<input class="option" type="radio" name="question3" value=2>Agree</br>
+			<input class="option" type="radio" name="question3" value=1>Strongly Agree</br>
+		</form>
+	</div>
+	<div class="questions">	
+		<p>Our race has many superior qualities, compared with other races.</p>
+		
+		<form>
+			<input class="option" type="radio" name="question4" value=4>Strongly Disagree</br>
+			<input class="option" type="radio" name="question4" value=3>Disagree</br>
+			<input class="option" type="radio" name="question4" value=2">Agree</br>
+			<input class="option" type="radio" name="question4" value=1>Strongly Agree</br>
+		</form>
+	</div>
+	<div class="questions">
+		<p>The enemy of my enemy is my friend.</p>
+		<form>
+			<input class="option" type="radio" name="question5" value=4>Strongly Disagree</br>
+			<input class="option" type="radio" name="question5" value=3>Disagree</br>
+			<input class="option" type="radio" name="question5" value=2>Agree</br>
+			<input class="option" type="radio" name="question5" value=1>Strongly Agree</br>
+		</form>
+		</div>
+		
+	
+		
+			<input type="button" id='next' value="ty" onlick="sum_values()">
+		
+		
+		
+		</div>
+</body>
+
+</html>
