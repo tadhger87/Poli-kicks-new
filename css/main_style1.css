@@ -2,41 +2,40 @@ body{
 padding-top: 2%;
 width: 80%;
 margin: auto;
-
-
 }
 
 .content{
-background-color: grey;
 padding: 1em;
 margin-bottom: 2%;
 position: relative;
-height: 20em;
+height: 100%;
 }
 p{
 font-family: monaco;
 margin: auto;
 font-size: 2em;
 text-align: justify;
-font-style:italic;
+}
+#footer{
+text-align:center;
 }
 
 .question{
 text-align: left;
 font-family: monaco;
-font-size: 2em;
-max-width: 80%;
-background-color: #B1A6BB;
+font-size: 1.25em;
+max-width: 100%;
+background-color: ;
 position: relative;
 margin: auto;
 }
 
 .answers{
 width: 35%;
-background-color: blue;
+background-color: ;
 padding: 1em;
 font-family: monaco;
-font-size: 2em;
+font-size: 1.2em;
 margin: auto;
 
 }
@@ -48,14 +47,13 @@ margin: auto;
 background-color: ;
 width: 60%;
 }
-.btn{
-
-
-
+#formButtons{
+background-color:green;
+margin-left:auto;
+max-width: 100%;
 }
-#buttons{
-text-align: center;
-margin: auto;
-width:10%;
-background-color: green;
+btnt{
+text-align:right;
 }
+
+
